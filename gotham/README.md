@@ -1,2 +1,0 @@
-# gotham
- PAGINA GAZETTA DE GOTHAM
