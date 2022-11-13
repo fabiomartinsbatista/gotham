@@ -1,0 +1,190 @@
+@charset "UTF8";
+@import url('https://www.dafont.com/pt/franchise-2.font?text=gotham+gazette');
+
+@font-face {
+ font-family:'Franchise';
+src: url("../gotham/fontes/Franchise.ttf") format('opentype');
+font-weight: normal;
+}
+
+:root {
+    --fonte-destaque:'Franchise';
+
+}
+
+body {
+    background-color: white;
+}
+
+h1{
+    position: absolute;
+    display: inline-block;
+    font-family: 'Franchise';
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 20px;
+            
+}
+
+header  h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 12em;
+    text-align: center;
+}
+
+  header h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 1.3em;
+    font-weight:normal;
+    background-color: red;
+    text-indent: 8px;
+    text-align: center;
+ }
+
+h3{
+    margin-top: -10px;
+}
+h4{
+    text-align: right;
+    margin-top: -40px;
+}
+
+ article{
+    padding: 10px 10px 10px 10px;
+    border: 1px solid;
+    margin: 3px;
+
+}
+
+main{
+    border: 3px solid;
+}
+
+article > h2{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:black;
+text-align: center;
+font-size: 5em;
+margin-top: -10px;
+}
+
+article > h3{
+    font-family:'Times New Roman', Times, serif;
+    color: lightgray;
+    text-align: center;
+    font-size: 14em;
+    margin-top: -65px;
+    background-color:black;
+    margin-left: 150px;
+    margin-right: 150px;
+} 
+    
+.container{
+    display:flex;
+    margin-left:10px;
+    margin-top: -220px;
+    padding: 10px;
+    max-width :464px;   
+}
+.container p {
+    text-align:right;
+    padding: 30px;
+    font-size: 5em;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-size: 140px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(189, 187, 187);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    text-shadow:  4px 4px black;
+}
+.container img{
+    margin-top: 30px;
+    padding-top: -5px;
+    margin-top: 10px;
+    margin-left: 128px;
+    border: 2px solid;
+    padding: 10px;
+} 
+.coringa img {
+    margin-top: -5px;
+    padding-top: 30px;
+    margin-top: -40px;
+    margin-left: 200px;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.box1 p{
+    margin: auto; 
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 280px;
+    max-width: 1200px;
+    font-size:1.2em ;
+    text-align: center; 
+    margin-bottom: -1em;
+     
+}
+a::after { 
+    content:'\00A0\1F517';
+    }
+
+.box1 a{
+    color: green;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: underline;
+    color:red;
+}
+
+h2{
+    color:black;
+    font-family: var(--fonte-destaque);
+    font-size: 7em;
+    text-align: center;
+}
+
+#ladoalado{
+    display:flex;
+    padding: 50px;
+    justify-content:center;
+    margin-left: -200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
